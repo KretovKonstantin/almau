@@ -1,0 +1,74 @@
+body {
+    background: url(https://bipbap.ru/wp-content/uploads/2017/04/0_7c779_5df17311_orig.jpg) ;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+.con{
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.logo {  
+display: flex;
+justify-content: center;
+}
+.number{
+margin-left: 830px;
+margin-top: 50px;
+}
+.address{
+margin-left: 100px;
+margin-top: 50px;
+}
+.logo span {
+position: absolute;
+color: #fff;
+font-size: 3rem;
+/* transform: translate(-50%, -50%); */
+}
+.logo span:nth-child(1) {
+color: transparent;
+-webkit-text-stroke: 0.3px #3bd9d9 ;
+}
+.logo span:nth-child(2) {
+color:rgb(128, 198, 255);
+-webkit-text-stroke: 1px #3bd9d9;
+animation: animation 3s ease-in-out infinite;
+}
+@keyframes animation {
+0%, 100% {
+clip-path: polygon(0% 45%, 15% 44%, 32% 50%,
+ 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
+}
+50% {
+clip-path: polygon(0% 60%, 16% 65%, 34% 66%,
+51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
+}
+}
+.brlo {
+    margin-top: 200px;
+}
+.knopki{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.kn{
+    padding: 20px;
+}
+.address{
+    font-size: 14px;
+    line-height: 150%;
+    padding: 5px;
+    margin-right: 30px;
+}
+
+.bh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
